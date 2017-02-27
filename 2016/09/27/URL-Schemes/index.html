@@ -93,10 +93,12 @@
 <meta property="og:url" content="http://yoursite.com/2016/09/27/URL-Schemes/index.html">
 <meta property="og:site_name" content="Leemessi">
 <meta property="og:description" content="启动Safari默认搜索 12345678NSString * urlString = @&quot;x-web-search://?123&quot;;   if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:urlString]]) &amp;#123;       if (iOS10) &amp;#123;           [[UIA">
-<meta property="og:updated_time" content="2017-02-27T10:25:46.000Z">
+<meta property="og:image" content="http://yoursite.com/source/uploads/avatar.jpeg">
+<meta property="og:updated_time" content="2017-02-27T10:30:39.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="URL Schemes">
 <meta name="twitter:description" content="启动Safari默认搜索 12345678NSString * urlString = @&quot;x-web-search://?123&quot;;   if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:urlString]]) &amp;#123;       if (iOS10) &amp;#123;           [[UIA">
+<meta name="twitter:image" content="http://yoursite.com/source/uploads/avatar.jpeg">
 
 
 
@@ -337,6 +339,7 @@
 
       
         <h3 id="启动Safari默认搜索"><a href="#启动Safari默认搜索" class="headerlink" title="启动Safari默认搜索"></a>启动Safari默认搜索</h3> <figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">NSString</span> * urlString = <span class="string">@"x-web-search://?123"</span>;</div><div class="line">   <span class="keyword">if</span> ([[<span class="built_in">UIApplication</span> sharedApplication] canOpenURL:[<span class="built_in">NSURL</span> URLWithString:urlString]]) &#123;</div><div class="line">       <span class="keyword">if</span> (iOS10) &#123;</div><div class="line">           [[<span class="built_in">UIApplication</span> sharedApplication] openURL:[<span class="built_in">NSURL</span> URLWithString:urlString] options:@&#123;&#125; completionHandler:<span class="literal">nil</span>];</div><div class="line">       &#125; <span class="keyword">else</span> &#123;</div><div class="line">           [[<span class="built_in">UIApplication</span> sharedApplication] openURL:[<span class="built_in">NSURL</span> URLWithString:urlString]];</div><div class="line">       &#125;</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
+<p> <img src="/source/uploads/avatar.jpeg"></p>
 
       
     </div>
