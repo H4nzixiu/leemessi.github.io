@@ -338,7 +338,7 @@
         
           
             <h3 id="启动Safari默认搜索"><a href="#启动Safari默认搜索" class="headerlink" title="启动Safari默认搜索"></a>启动Safari默认搜索</h3> <figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">NSString</span> * urlString = <span class="string">@"x-web-search://?123"</span>;</div><div class="line">   <span class="keyword">if</span> ([[<span class="built_in">UIApplication</span> sharedApplication] canOpenURL:[<span class="built_in">NSURL</span> URLWithString:urlString]]) &#123;</div><div class="line">       <span class="keyword">if</span> (iOS10) &#123;</div><div class="line">           [[<span class="built_in">UIApplication</span> sharedApplication] openURL:[<span class="built_in">NSURL</span> URLWithString:urlString] options:@&#123;&#125; completionHandler:<span class="literal">nil</span>];</div><div class="line">       &#125; <span class="keyword">else</span> &#123;</div><div class="line">           [[<span class="built_in">UIApplication</span> sharedApplication] openURL:[<span class="built_in">NSURL</span> URLWithString:urlString]];</div><div class="line">       &#125;</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
-<p><img src="/uploads/avatar.jpeg"></p>
+<p><img src="/uploads/avatar.jpeg" ,="" width="100" height="100"></p>
 
           
         
